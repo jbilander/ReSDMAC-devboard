@@ -672,10 +672,10 @@ Wire Wire Line
 Wire Wire Line
 	3400 6750 3400 6700
 $Comp
-L Device:C_Small C?
+L Device:C_Small C3
 U 1 1 6658B651
 P 4000 6600
-F 0 "C?" H 4100 6600 50  0000 L CNN
+F 0 "C3" H 4100 6600 50  0000 L CNN
 F 1 "0.1uF" H 4050 6700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4000 6600 50  0001 C CNN
 F 3 "~" H 4000 6600 50  0001 C CNN
@@ -703,4 +703,17 @@ Wire Wire Line
 Wire Wire Line
 	4000 6750 4150 6750
 Connection ~ 4000 6750
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 665B1376
+P 1550 6600
+F 0 "J3" H 1630 6642 50  0000 L CNN
+F 1 "Conn_01x01" H 1630 6551 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1550 6600 50  0001 C CNN
+F 3 "~" H 1550 6600 50  0001 C CNN
+	1    1550 6600
+	1    0    0    -1  
+$EndComp
+Text GLabel 1350 6600 0    50   Input ~ 0
+GND
 $EndSCHEMATC
